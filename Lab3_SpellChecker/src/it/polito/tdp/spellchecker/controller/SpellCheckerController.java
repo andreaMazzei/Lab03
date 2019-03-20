@@ -73,7 +73,7 @@ public class SpellCheckerController {
     	for(RichWord parola : output) {
     		if(parola.isCorretta() == false) {
     			paroleSbagliate.appendText(parola.getParola()+"\n");
-    			count++;
+    			count++;//
     		}
     	}
     	errori.setText("The text contains "+count+" errors");
